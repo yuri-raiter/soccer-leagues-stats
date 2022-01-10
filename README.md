@@ -1,4 +1,4 @@
-# Soccer League Stats
+# Soccer Leagues Stats
 
 ## Home
 <p align='center'>
