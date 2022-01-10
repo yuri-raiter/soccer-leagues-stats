@@ -1,0 +1,36 @@
+.container {
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform .3s ease;
+
+  a {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  & + li {
+    margin-left: 3rem;
+  }
+
+  &:hover {
+    outline: 3px solid var(--white);
+    transform: translateY(-1rem);
+  }
+
+  &:nth-child(1) {
+    background: var(--purple);
+  }
+
+  &:nth-child(2) {
+    background: var(--blue);
+  }
+
+  &:nth-child(3) {
+    background: var(--yellow);
+  }
+
+  &:nth-child(4) {
+    background: var(--red);
+  }
+}
