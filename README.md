@@ -1,4 +1,4 @@
-# Github User Finder
+# Soccer League Stats
 
 ## Home
 <p align='center'>
